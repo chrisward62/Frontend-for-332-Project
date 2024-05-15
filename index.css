@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(104, 104, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: lightcoral; /* Change this to your desired color */
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 120%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 80px; /* Adjust this value if needed to ensure it is below the header */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 300%;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 25px;
+    background: #73AD21;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
