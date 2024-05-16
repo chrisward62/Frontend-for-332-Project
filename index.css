@@ -55,3 +55,28 @@ main p {
     justify-content: center;
     width: 100%;
 }
+
+.home-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 0;
+}
+
+#homeButton:hover {
+    background: #5a8e17;
+}
+
+#homeButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 25px;
+    background: #73AD21;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
